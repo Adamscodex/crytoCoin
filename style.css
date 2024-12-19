@@ -1,0 +1,289 @@
+html{
+scroll-behavior:smooth;
+
+}
+body{
+  background-color: black;
+}
+.left{
+  text-align: left;
+}
+
+
+
+@media (max-width: 768px) {
+    .col-md-3 {
+      flex-basis: 50%;
+    }
+  .col-md-1 {
+    flex-basis: 50%;
+  }
+
+      .col-md-5 {
+        flex-basis: 50%;
+      }
+      
+      .col-md-2 {
+        flex-basis: 50%;
+      }
+      .navbar-nav{
+        flex-direction: column;
+        align-items: center;
+      }
+      .nav-item{
+        margin-right: 0%;
+      }
+      
+  }
+  
+  @media (max-width: 576px) {
+    .nav-brand{
+        font-size: 1.2rem;
+    }
+    .col-md-3 {
+      flex-basis: 100%;
+    }
+    .col-md-1 {
+        flex-basis: 100%;
+      }
+     
+    .col-md-4 {
+        flex-basis: 100%;
+
+      }
+      .col-md-5 {
+        flex-basis: 100%;
+      }
+     
+      .col-md-2 {
+        flex-basis: 100%;
+      }
+  }
+  
+  @media (max-width: 400px) {
+    .navbar-nav {
+      flex-direction: column;
+    }
+    .navbar-nav li {
+      margin-right: 0;
+    }
+}  
+.im{
+    animation: shake 8s infinite;
+}
+.ab{
+    margin-left: 60px;
+   
+}
+.TH{
+    margin-left: 700px;
+}
+.mn{
+    margin-left: 20px;
+}
+.service{
+    background-color: white;
+    border-top-right-radius: 100px;
+    margin-left: 30px;
+}
+.trans{
+    background-color: white;
+    border-top-right-radius: 100px;
+    margin-left: 50px;
+}
+.bit{
+    background-color: white;
+    margin-left:50px ;
+    border-top-right-radius: 100px;
+}
+.exch{
+    background-color: white;
+    margin-left:50px ;
+    border-top-right-radius: 100px;
+}
+.esc{
+    background-color: white;
+    margin-left:50px ;
+    border-top-right-radius: 100px;
+}
+.token{
+    background-color: white;
+    margin-left:50px ;
+    border-top-right-radius: 100px;
+}
+#about{
+    cursor: pointer;
+}
+.content{
+    animation: shake 7S  infinite;
+}
+.about{
+    animation: zoomIn  6s forwards;
+}
+
+.heading-1{
+        
+    
+      
+    }
+    .intro-text{
+        animation: zoomIn 9s forwards;
+    }
+ 
+   
+   
+   .num {
+       
+       font-weight: bold;
+       animation: count 2s forwards;
+     }
+     .sale1{
+      background-color: white;
+     }
+     .sale2{
+      background-color: white;
+     
+     }
+     .sale3{
+      background-color: white;
+     }
+     .sale4{
+      background-color: white;
+     }
+     .buy{
+      margin-top: 80px;
+     }
+   .payment{
+    margin-bottom: 50px;
+   }
+   #displayText{
+    display: "none";
+   }
+   .counter{
+    animation: count 2s forwards;
+   }
+
+@keyframes count {
+  0% {
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+@keyframes coun {
+  0% {
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes coun {
+  0% {
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes co {
+  0% {
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes num1 {
+  0% {
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes num2 {
+  0% {
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes num3 {
+  0% {
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+1. Style the counter: Add styles to the counter element, including the animation.
+
+.sale {
+  font-weight: bold;
+  animation: count 2s forwards;
+}
+.countn{
+  animation: coun 2s forwards;
+
+}
+.countnu{
+  animation: cou 2s forwards;
+
+}
+.sale22{
+
+  animation: coun 2s forwards;
+  font-weight: bold;
+ }
+ .sale33{
+
+  animation: cou 2s forwards;
+  font-weight: bold;
+ }
+ .sale44{
+
+  animation: co 2s forwards;
+  font-weight: bold;
+ }
+
+ .counter1{
+
+  animation: num1 2s forwards;
+  font-weight: bold;
+ }
+ .counter2{
+
+  animation: num2 2s forwards;
+  font-weight: bold;
+ }
+
+ .counter3{
+
+  animation: num3 2s forwards;
+  font-weight: bold;
+ }

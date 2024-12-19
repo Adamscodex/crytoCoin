@@ -1,0 +1,50 @@
+.wallet-container {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 800px;
+    margin: 40px auto;
+  }
+  
+  .wallet-container h1 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .wallet-balance {
+    background-color: #5282f3;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    width: 500px;
+    
+
+  }
+  
+  .wallet-balance h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+.wallet-transactions {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .wallet-transactions h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  #transactions {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+    
+
